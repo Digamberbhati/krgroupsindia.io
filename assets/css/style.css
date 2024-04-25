@@ -191,8 +191,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 260px;
-  margin-left: -160px;
+  max-height: 123px;
+  margin-left: -181px;
 }
 
 .scrolled-offset {
@@ -481,13 +481,14 @@ h6 {
   position: relative;
 }
 
-#hero h1 {
+/* #hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #222222;
   font-family: "Poppins", sans-serif;
+  position: absolute;
 }
 
 #hero h1 span {
@@ -577,7 +578,7 @@ h6 {
   #hero {
     height: 120vh;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Sections General
@@ -608,6 +609,7 @@ section {
   text-transform: uppercase;
   border-radius: 50px;
 }
+
 
 .section-title h3 {
   margin: 15px 0 0 0;
