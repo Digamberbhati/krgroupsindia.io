@@ -456,6 +456,37 @@ h6 {
   display: block;
 }
 
+/* Slider */
+.slide {
+  position: relative;
+}
+.animated-text {
+  position: absolute;
+  top: 32%;
+  left: 133px;
+  transform: translateY(-50%);
+  width: 90%; /* Adjust according to your need */
+  max-width: 400px; /* Adjust according to your need */
+}
+.animated-text h1 {
+  font-size: 61px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.animated-text p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: auto;
+  max-height: 700px;
+  width: 100%;
+}
+/* Slider End */
+
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -977,7 +1008,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/banner.png  ") no-repeat;
+  background: url("../img/handshakes.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
