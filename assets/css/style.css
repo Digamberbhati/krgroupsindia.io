@@ -23,9 +23,15 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: Georgia, serif;
   font-family: "Roboto", sans-serif;
 }
 
+#hero1, #hero2{
+  font-family: system-ui;
+  color:#e8ab18;
+
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -455,8 +461,8 @@ h6 {
 }
 .animated-text {
   position: absolute;
-  top: 32%;
-  left: 133px;
+  top: 37%;
+  left: 150px;
   transform: translateY(-50%);
   width: 90%; /* Adjust according to your need */
   max-width: 400px; /* Adjust according to your need */
@@ -467,8 +473,9 @@ h6 {
   margin-bottom: 10px;
 }
 .animated-text p {
-  font-size: 17px;
+  font-size: 22px;
   line-height: 1.5;
+
 }
 .carousel-item img {
   object-fit: cover;
