@@ -32,6 +32,28 @@ h6 {
   color:#e8ab18;
 
 }
+
+/* Get Join Button */
+
+.btn {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #e8ab18;
+  border: 2px solid #e8ab18;
+  color:white;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -190,8 +212,10 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 123px;
-  margin-left: -181px;
+  max-height: 8vw;
+  /* margin-left: -181px; */
+      max-width: 100%;
+      height: auto;
 }
 
 .scrolled-offset {
@@ -468,7 +492,7 @@ h6 {
   max-width: 400px; /* Adjust according to your need */
 }
 .animated-text h1 {
-  font-size: 61px;
+  font-size: 2.9vmax;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -870,7 +894,7 @@ section {
   z-index: 1;
 }
 .process-step{
-  background: #00BCD4;
+  background: #e8ab18;
   text-align: center;
   width: 80%;
   margin: 0 auto;
@@ -887,7 +911,7 @@ section {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 8px solid #00bcd4;
+  border: 8px solid #e8ab18;
   box-shadow: 0 0 0px 4px #5c5c5c;
   margin: auto 0;
   position: absolute;
@@ -910,7 +934,7 @@ section {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 8px solid #00bcd4;
+  border: 8px solid #e8ab18;
   box-shadow: 0 0 0px 4px #5c5c5c;
   margin: auto 0;
   position: absolute;
@@ -945,9 +969,9 @@ section {
 .process-step:after{
   content: "";
   border-top: 8px solid #04889800;
-  border-bottom: 8px solid #048898;
+  border-bottom: 8px solid #e8ab18;
   border-left: 8px solid #04889800;
-  border-right: 8px solid #048898;
+  border-right: 8px solid #e8ab18;
   display: inline-grid;
   position: absolute;
   left: -16px;
@@ -956,8 +980,8 @@ section {
 .process-step:before{
   content: "";
   border-top: 8px solid #ff000000;
-  border-bottom: 8px solid #048898;
-  border-left: 8px solid #048898;
+  border-bottom: 8px solid #e8ab18;
+  border-left: 8px solid #e8ab18;
   border-right: 8px solid #ff000000;
   display: inline-grid;
   position: absolute;
