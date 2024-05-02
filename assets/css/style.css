@@ -47,12 +47,13 @@ h6 {
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
+  background: #e8ab18;
 }
 
 .btn:hover {
-  background: #e8ab18;
+  
   border: 2px solid #e8ab18;
-  color:white;
+  color:rgb(0, 0, 0);
 }
 /*--------------------------------------------------------------
 # Preloader
@@ -653,18 +654,18 @@ section {
 }
 
 .section-title h2 {
-  font-size: 13px;
+  font-size: 19px;
   letter-spacing: 1px;
   font-weight: 700;
-  padding: 8px 20px;
+  padding: 16px 39px;
   margin: 0;
-  background: #e7f1fd;
-  color: #e8ab18;
+  background: #e8ab18;
+  color: #ffffff;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
-}
 
+}
 
 .section-title h3 {
   margin: 15px 0 0 0;
@@ -818,6 +819,11 @@ section {
   font-size: 26px;
 }
 
+
+.about h5{
+  margin-top: 21px;
+
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -1101,6 +1107,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding: 70px 0 60px;
+  font-family: auto;
 }
 
 .counts .count-box {
@@ -1109,6 +1116,8 @@ section {
   position: relative;
   text-align: center;
   background: #f1f6fe;
+  border-radius: 50px;
+
 }
 
 .counts .count-box i {
@@ -1174,7 +1183,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
-  padding: 80px 20px;
+  padding: 87px 100px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -1194,7 +1203,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #3b8af2;
+  color: #e8ab18;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -1203,11 +1212,13 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  color: #e8ab18;
 }
 
 .services .icon-box h4 a {
   color: #222222;
   transition: ease-in-out 0.3s;
+  color: #e8ab18;
 }
 
 .services .icon-box p {
@@ -1260,6 +1271,9 @@ section {
   overflow: hidden;
 }
 
+.testimonials h1{
+  color: white;
+}
 .testimonials .testimonial-item {
   text-align: center;
   color: #fff;
@@ -1590,7 +1604,7 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .box {
+/* .pricing .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1695,7 +1709,7 @@ section {
   padding: 1px 0 3px 0;
   background: #e8ab18;
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
