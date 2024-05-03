@@ -38,7 +38,7 @@ h6 {
 .btn {
   font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1vw;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
@@ -493,12 +493,12 @@ h6 {
   max-width: 400px; /* Adjust according to your need */
 }
 .animated-text h1 {
-  font-size: 2.9vmax;
+  font-size: 2.9vw;
   font-weight: bold;
   margin-bottom: 10px;
 }
 .animated-text p {
-  font-size: 22px;
+  font-size: 1vw;
   line-height: 1.5;
 
 }
